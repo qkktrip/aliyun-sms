@@ -1,0 +1,25 @@
+{
+    "name": "qkktrip/aliyun-sms-api",
+    "description": "Aliyun SMS SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qkktrip",
+            "email": "3027831735@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Qkktrip\\AliyunSMS\\":"src/",
+            "Qkktrip\\AliyunSMS\\Test\\": "tests/"
+        }
+    }
+}
